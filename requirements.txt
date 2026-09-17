@@ -1,0 +1,23 @@
+# Retrieval
+python-terrier==0.10.0
+
+# Neural re-ranking (E1)
+sentence-transformers==3.0.1
+
+# Custom re-ranking (E2): NER
+spacy==3.7.5
+
+# RAG generativo
+transformers==4.44.2
+accelerate==0.33.0
+bitsandbytes==0.43.3
+torch==2.4.0
+huggingface_hub==0.24.6
+
+# Interfaccia
+streamlit==1.30.0
+
+# Data / analysis
+pandas==2.2.2
+numpy==1.26.4
+matplotlib==3.9.0
